@@ -4,3 +4,8 @@ body {
     font-weight: normal;
 
 }
+
+.info-text {
+    font-family: 'Roboto';
+    font-style: italic;
+}
