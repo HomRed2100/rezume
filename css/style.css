@@ -22,6 +22,7 @@ body {
     font-style: italic;
 }
 .card {
+    display: flex;
     border: 2px solid #b9dae2;
     border-radius: 3px;
     background-color: #b9dae2;
@@ -35,9 +36,6 @@ body {
 }
 .link:visited {
     color: black;
-}
-.block {
-    display: inline-block;
 }
 .card-4 {
     border: 2px solid #5ce973;
@@ -85,8 +83,35 @@ td{
     padding-left: 20px;
     padding-bottom: 20px;
 }
+.head-form {
+    text-align: center;
+}
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row .form-space {
+    margin-right: 20px;
+    width: 50%;
+}
 .form-space {
     margin-bottom: 5px;
+}
+.form-space label {
+    display: block;
+
+}
+.form-space input,
+.form-space textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: 'Roboto';
 }
 .btn {
     border: 2px solid brown;
