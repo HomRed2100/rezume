@@ -46,6 +46,12 @@ body {
     padding-bottom: 20px;
 
 }
+.link:hover {
+    color: crimson;
+}
+.link:visited {
+    color: black;
+}
 .card-4 {
     border: 2px solid #5ce973;
     border-radius: 3px;
@@ -74,4 +80,11 @@ body {
 }
 .form-space {
     margin-bottom: 5px;
+}
+.btn {
+    border: 2px solid brown;
+    border-radius: 5px;
+    background-color: chocolate;
+    padding: 10px 20px;
+    cursor: pointer;
 }
