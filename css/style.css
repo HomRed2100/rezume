@@ -7,13 +7,14 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .avatar {
     border-radius: 15px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-right: 30px;
 }
 
 .info-text {
@@ -25,32 +26,18 @@ body {
     border-radius: 3px;
     background-color: #b9dae2;
     margin-bottom: 15px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
+    
 }
-.card-2 {
-    border: 2px solid #cce9a6;
-    border-radius: 3px;
-    background-color: #cce9a6;
-    margin-bottom: 15px;
-    padding-left: 20px;
-    padding-bottom: 20px;
 
-}
-.card-3 {
-    border: 2px solid #eca15b;
-    border-radius: 3px;
-    background-color: #eca15b;
-    margin-bottom: 15px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-
-}
 .link:hover {
     color: crimson;
 }
 .link:visited {
     color: black;
+}
+.block {
+    display: inline-block;
 }
 .card-4 {
     border: 2px solid #5ce973;
@@ -75,7 +62,7 @@ body {
 
 }
 .table {
-
+    
     border: 2px solid rgb(0, 0, 0);
     border-collapse: collapse;
     
