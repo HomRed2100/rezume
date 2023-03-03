@@ -10,3 +10,44 @@ body {
     font-family: 'Roboto';
     font-style: italic;
 }
+.card {
+    border: 2px solid #b9dae2;
+    border-radius: 3px;
+    background-color: #b9dae2;
+    margin-bottom: 15px;
+}
+.card-2 {
+    border: 2px solid #cce9a6;
+    border-radius: 3px;
+    background-color: #cce9a6;
+    margin-bottom: 15px;
+
+}
+.card-3 {
+    border: 2px solid #eca15b;
+    border-radius: 3px;
+    background-color: #eca15b;
+    margin-bottom: 15px;
+
+}
+.card-4 {
+    border: 2px solid #5ce973;
+    border-radius: 3px;
+    background-color: #5ce973;
+    margin-bottom: 15px;
+
+}
+.card-5 {
+    border: 2px solid #f081d4;
+    border-radius: 3px;
+    background-color: #f081d4;
+    margin-bottom: 15px;
+
+}
+.card-6 {
+    border: 2px solid #a78b51;
+    border-radius: 3px;
+    background-color: #a78b51;
+    margin-bottom: 15px;
+
+}
